@@ -15,7 +15,7 @@ for (let delay = 100; delay <= maxDelay; delay += 1000) {
   
   setTimeout(() => {
     // Need to escape the backslash since it's a special character.
-    process.stdout.write('\r\\   '); 
+    process.stdout.write('\r\\   ');
   }, delay + 600);
 
   setTimeout(() => {
